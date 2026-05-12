@@ -1,0 +1,1 @@
+ C:\\Users\\lucas\\OneDrive\\Desktop\\New\ folder\\fitlife_app\\.dart_tool\\flutter_build\\34fad006bc5bd510b5de0a4b48954963\\dart_build_result.json: 

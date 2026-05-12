@@ -1,0 +1,2 @@
+C:/Users/lucas/OneDrive/Desktop/New folder/fitlife_app/build/.cxx/debug/3b6c5o24/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/lucas/OneDrive/Desktop/New folder/fitlife_app/build/.cxx/debug/3b6c5o24/armeabi-v7a/CMakeFiles/rebuild_cache.dir

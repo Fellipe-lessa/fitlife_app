@@ -1,0 +1,10 @@
+^C:\USERS\LUCAS\ONEDRIVE\DESKTOP\NEW FOLDER\FITLIFE_APP\BUILD\WINDOWS\X64\CMAKEFILES\6D434C614D501F67834197794E524E93\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\lucas\OneDrive\Desktop\New folder\fitlife_app\build\windows\x64\CMakeFiles\6d434c614d501f67834197794e524e93\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B6630FF8-1843-328B-A9E0-41B6A0957E9E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
