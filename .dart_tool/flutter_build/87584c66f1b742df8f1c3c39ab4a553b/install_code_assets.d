@@ -1,0 +1,1 @@
+ C:\\Users\\lucas\\OneDrive\\Desktop\\New\ folder\\fitlife_app\\.dart_tool\\flutter_build\\87584c66f1b742df8f1c3c39ab4a553b\\native_assets.json: 
