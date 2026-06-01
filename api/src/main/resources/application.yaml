@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: api
+    
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=app_saude;encrypt=true;trustServerCertificate=true;
+    username: root # Substitua pelo seu usuário do SQL Server (ex: sa)
+    password: "@Senha123"   # Substitua pela sua senha
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true

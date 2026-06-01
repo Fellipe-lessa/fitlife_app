@@ -28,23 +28,3 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-
-# Build
-build/
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-
-# Android
-android/.gradle/
-android/local.properties
-android/captures/
-
-# iOS
-ios/Pods/
-ios/.symlinks/
-
-# outros
-.idea/
-*.iml
-*.log
