@@ -4,8 +4,8 @@ spring:
     
   datasource:
     url: jdbc:sqlserver://localhost:1433;databaseName=app_saude;encrypt=true;trustServerCertificate=true;
-    username: seu_usuario # Substitua pelo seu usuário do SQL Server (ex: sa)
-    password: sua_senha   # Substitua pela sua senha
+    username: root # Substitua pelo seu usuário do SQL Server (ex: sa)
+    password: "@Senha123"   # Substitua pela sua senha
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
 
   jpa:
