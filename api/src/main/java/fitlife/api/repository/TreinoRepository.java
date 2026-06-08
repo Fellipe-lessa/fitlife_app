@@ -1,6 +1,6 @@
 package fitlife.api.repository;
 
-import fitlife.api.model.Treino;
+import fitlife.api.models.Treino;
 import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 import java.util.UUID;

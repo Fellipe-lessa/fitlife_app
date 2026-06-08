@@ -1,9 +1,9 @@
 package fitlife.api.service;
 
 import fitlife.api.dto.RefeicaoDTO.*;
-import fitlife.api.model.ItemAlimentar;
-import fitlife.api.model.Refeicao;
-import fitlife.api.model.Usuario;
+import fitlife.api.models.ItemAlimentar;
+import fitlife.api.models.Refeicao;
+import fitlife.api.models.Usuario;
 import fitlife.api.repository.RefeicaoRepository;
 import fitlife.api.repository.UsuarioRepository;
 import org.springframework.stereotype.Service;

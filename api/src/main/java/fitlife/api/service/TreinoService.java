@@ -1,9 +1,9 @@
 package fitlife.api.service;
 
 import fitlife.api.dto.TreinoDTO.*;
-import fitlife.api.model.Exercicio;
-import fitlife.api.model.Treino;
-import fitlife.api.model.Usuario;
+import fitlife.api.models.Exercicio;
+import fitlife.api.models.Treino;
+import fitlife.api.models.Usuario;
 import fitlife.api.repository.TreinoRepository;
 import fitlife.api.repository.UsuarioRepository;
 import org.springframework.stereotype.Service;

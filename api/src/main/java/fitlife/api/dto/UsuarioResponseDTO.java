@@ -3,12 +3,20 @@ package fitlife.api.dto;
 import java.time.LocalDate;
 import java.util.UUID;
 
+import fitlife.api.models.UserRole;
+
 public record UsuarioResponseDTO(
-    UUID id, 
-    String nome, 
-    String email, 
-    double peso, 
-    double altura, 
+    UUID id,
+    String nome,
+    String email,
+    UserRole role,
+    String telefone,
+    String objetivo,
+    Double peso,
+    Double altura,
     LocalDate dataNascimento,
-    double imc // O IMC já calculado e pronto para ser exibido no ecrã!
+    String extra1,
+    String extra2,
+    String extra3,
+    Double imc
 ) {}

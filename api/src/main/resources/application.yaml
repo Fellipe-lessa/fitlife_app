@@ -1,15 +1,14 @@
 spring:
   application:
     name: api
-    
+
   datasource:
-    url: jdbc:sqlserver://localhost:1433;databaseName=app_saude;encrypt=true;trustServerCertificate=true;
-    username: root # Substitua pelo seu usuário do SQL Server (ex: sa)
-    password: "@Senha123"   # Substitua pela sua senha
-    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlite:fitlife.db
+    driver-class-name: org.sqlite.JDBC
 
   jpa:
     show-sql: true
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
     hibernate:
       ddl-auto: update
     properties:

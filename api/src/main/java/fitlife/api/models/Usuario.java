@@ -6,6 +6,8 @@ import java.util.UUID;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -17,6 +19,7 @@ import lombok.Data;
 @Entity
 @Table(name = "tb_usuario")
 public class Usuario {
+
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
@@ -24,17 +27,27 @@ public class Usuario {
     private String nome;
     private String email;
     private String senha;
-    private double peso;
-    private double altura;
+
+    @Enumerated(EnumType.STRING)
+    private UserRole role;
+
+    private String telefone;
+    private String objetivo;
+
+    private Double peso;
+    private Double altura;
     private LocalDate dataNascimento;
+
+    private String extra1;
+    private String extra2;
+    private String extra3;
 
     @OneToMany(mappedBy = "usuario", cascade = CascadeType.ALL)
     private List<Treino> treinos;
-    
+
     @OneToMany(mappedBy = "usuario", cascade = CascadeType.ALL)
     private List<Refeicao> refeicoes;
 
     @OneToMany(mappedBy = "usuario", cascade = CascadeType.ALL)
     private List<Meta> metas;
-    // As outras relações (Refeicao, Meta) entram aqui seguindo a mesma lógica
 }
